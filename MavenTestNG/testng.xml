@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/MavenTestNG">
+
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browser1" value="FireFox"/>
+
+
+        <groups>
+
+            <run>
+                <include name="DB"/>
+            </run>
+
+
+        </groups>
+
+
+        <classes>
+            <class name="demo.Calculator"/>
+            <class name="demo.TestBgAnnotations"/>
+            <class name="demo.Text">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="demo.ParameterizedTest"/>
+            <class name="demo.GroupsTests"/>
+        </classes>
+    </test>
+</suite>
