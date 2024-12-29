@@ -5,7 +5,7 @@
 
         <parameter name="browser" value="chrome"/>
         <parameter name="browser1" value="FireFox"/>
-
+        <parameter name="" value=""></parameter>
 
         <groups>
 
