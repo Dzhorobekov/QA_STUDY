@@ -23,4 +23,5 @@ public class Text extends TestNgAnnotations2{
         Assert.assertTrue(text.printFirstTwoLetters(result).charAt(0) == 'h');
     }
 // fhfdhfdjfjdfhdj
+    // add commit2
 }
